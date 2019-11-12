@@ -11,5 +11,5 @@ class MessageType(DjangoObjectType):
 class Query(graphene.AbstractType):
     all_message = graphene.List(MessageType)
 
-    def resolve_all_messages(self, context, **kwargs):
+    def resolve_all_message(self, context, **kwargs):
         return Message.objects.all()

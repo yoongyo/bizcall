@@ -18,7 +18,7 @@ class Query(graphene.AbstractType):
 
     all_item = graphene.List(ItemType)
 
-    def resolve_all_contacts(self, context, **kwargs):
+    def resolve_all_contact(self, context, **kwargs):
         return Contact.objects.all()
 
     def resolve_all_item(self, context, **kwargs):
