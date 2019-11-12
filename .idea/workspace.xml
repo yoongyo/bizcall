@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe8265fc-f5b5-4f7d-9368-4344c9656d42" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/contact/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/contact/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/contact/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/message/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/message/models.py" afterDir="false" />
-    </list>
+    <list default="true" id="fe8265fc-f5b5-4f7d-9368-4344c9656d42" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +22,7 @@
         <counts>
           <entry key="gitignore" value="1" />
           <entry key="html" value="2" />
-          <entry key="py" value="26" />
+          <entry key="py" value="28" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
@@ -34,20 +30,20 @@
         <counts>
           <entry key="HTML" value="2" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="26" />
+          <entry key="Python" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="2" />
           <entry key="gitignore" value="1" />
-          <entry key="py" value="1249" />
+          <entry key="py" value="1298" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="1249" />
+          <entry key="Python" value="1298" />
         </counts>
       </usages-collector>
     </session>
@@ -63,6 +59,18 @@
                 <element signature="e#0#28#0" expanded="true" />
                 <marker date="1573540344874" expanded="true" signature="173:178" ph="..." />
                 <marker date="1573540344874" expanded="true" signature="404:409" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/accounts/schema.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="30" column="36" lean-forward="true" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+              <folding>
+                <element signature="e#0#46#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -93,7 +101,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mysite/schema.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
@@ -126,7 +134,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/message/models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
@@ -161,18 +169,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/message/schema.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="11" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="11" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -200,7 +196,6 @@
         <option value="$PROJECT_DIR$/mysite/urls.py" />
         <option value="$PROJECT_DIR$/mysite/wsgi.py" />
         <option value="$PROJECT_DIR$/message/shcema.py" />
-        <option value="$PROJECT_DIR$/mysite/schema.py" />
         <option value="$PROJECT_DIR$/message/admin.py" />
         <option value="$PROJECT_DIR$/mysite/settings/common.py" />
         <option value="$PROJECT_DIR$/manage.py" />
@@ -208,6 +203,8 @@
         <option value="$PROJECT_DIR$/contact/models.py" />
         <option value="$PROJECT_DIR$/contact/admin.py" />
         <option value="$PROJECT_DIR$/message/models.py" />
+        <option value="$PROJECT_DIR$/accounts/schema.py" />
+        <option value="$PROJECT_DIR$/mysite/schema.py" />
       </list>
     </option>
   </component>
@@ -246,12 +243,6 @@
               <item name="ch1" type="462c0819:PsiDirectoryNode" />
               <item name="mysite" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ch1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ch1" type="462c0819:PsiDirectoryNode" />
-              <item name="mysite" type="462c0819:PsiDirectoryNode" />
-              <item name="settings" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -289,7 +280,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="98" y="23" width="1200" height="877" extended-state="0" />
+    <frame x="195" y="23" width="1200" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24936387" />
@@ -365,16 +356,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/schema.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/message/schema.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -441,6 +422,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/message/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+            <marker date="1573540344883" expanded="true" signature="173:178" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/contact/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -453,13 +445,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/message/models.py">
+    <entry file="file://$PROJECT_DIR$/accounts/schema.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="36" lean-forward="true" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/schema.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
-            <marker date="1573540344883" expanded="true" signature="173:178" ph="..." />
+            <element signature="e#0#45#0" expanded="true" />
           </folding>
         </state>
       </provider>
